@@ -84,9 +84,10 @@
 }
 
 #text {
-    font-size: 13px;
+    font-size: 10px;
     letter-spacing: 5px;
     opacity: 0.4;
+    margin-block-start: 12px;
 }
 
 .tooltip {
@@ -102,13 +103,14 @@
 #fb,
 #tw,
 #pt {
-    width: 10%;
-    height: 15%;
+    width: 8%;
+    height: 13%;
     padding: 8px;
     margin-block-start: 2px;
 }
 
 .tooltip .tooltiptext {
+    box-shadow: 0 10px 8px 0 rgba(72, 85, 106, 0.144);
     visibility: hidden;
     width: 100%;
     background-color: hsl(217, 19%, 35%);
@@ -118,20 +120,21 @@
     padding: 5px 0;
     position: absolute;
     /* z-index: 1; */
-    bottom: 125%;
-    left: 68%;
+    bottom: 170%;
+    left: 66%;
     margin-left: -60px;
-    /* opacity: 0; */
-    transition: opacity 0.3s;
+    opacity: 0.4;
+    /* transition: 0.3s; */
 }
 
 .tooltip .tooltiptext::after {
+    box-shadow: 0 10px 8px 0 rgba(72, 85, 106, 0.144) transparent;
     content: "";
     position: absolute;
-    top: 100%;
+    top: 98%;
     left: 50%;
     margin-left: -5px;
-    border-width: 5px;
+    border-width: 10px;
     border-style: solid;
     border-color: hsl(217, 19%, 35%) transparent transparent transparent;
 }
