@@ -3,6 +3,10 @@
     font-family: 'Manrope', sans-serif;
 }
 
+html {
+    background-color: hsl(210, 46%, 95%);
+}
+
 .card {
     /* Add shadows to create the "card" effect */
     display: flex;
